@@ -1,0 +1,22 @@
+
+.circle{
+    font: 30px/75px Sheriff;
+    width: 80px;
+    height: 80px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 20px solid #95CD8B;
+    text-align: center;
+    background: #ECF5E4;
+    border-right-color: #D0E6BB;
+}
+.square{
+    font: 30px/75px Sheriff;
+    width: 80px;
+    height: 80px;
+    margin: 8px;
+    border: 20px solid #95CD8B;
+    text-align: center;
+    background: #ECF5E4;
+    border-right-color: #D0E6BB;
+}

@@ -1,0 +1,18 @@
+p {
+    display: inline-block;
+    margin: 5px 5px;
+    height: 90px;
+    width: 90px;
+}
+
+p:nth-child(odd) {
+    background-color: #009abf;
+}
+
+p:nth-child(even) {
+    background-color: #000000;
+}
+
+p:hover {
+    background-color: #ff9f19;
+}

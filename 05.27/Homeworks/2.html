@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="22.css">
+    <link rel="preconnect" href="https://fonts.google.com/">
+    <title>Registracija</title>
+</head>
+<body>
+<header>
+   <h1>Registracija i kursus</h1>
+    <hr>
+</header>
+<main>
+    <label class="name" for="name">Vardas:</label>
+    <input class="name" type="text" id="name" name="name">
+    <h3>Programavimo kalba:</h3>
+    <input type="radio" id="c++" name="lang" value="C++">
+    <label for="c++">C++</label><br>
+    <input type="radio" id="php" name="lang" value="PHP">
+    <label for="php">PHP</label><br>
+    <input type="radio" id="pyth" name="lang" value="Python">
+    <label for="pyth">Python</label><br>
+    <h3>Papildoma informacija</h3>
+    <label class="textarea" for="text"></label>
+    <textarea id="text" name="papildoma informacija" rows="4" cols="40" placeholder="Pvz.: turite C++ programavimo patirties"></textarea>
+    <br><br>
+    <h3>Slaptazodis:</h3>
+    <label class="password" for="pass"></label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+    <select name="numbers">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select><br><br>
+    <a href="#"><button>Siusti</button></a>
+
+
+</main>
+</body>
+</html>

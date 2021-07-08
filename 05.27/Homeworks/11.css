@@ -1,0 +1,33 @@
+table {
+    width: 12%;
+}
+
+table, th, {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table th {
+    color:white;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+}
+table th tr {
+    padding: 5px;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+}
+.color-brown {
+    background-color: #800000;
+
+}
+
+.color-yellow {
+    background-color: #ffeb99;
+}
+
+.color-wheat {
+    background-color: #ffeecc;
+}
